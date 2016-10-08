@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;	//Allows us to use UI.
 
+using UnityEngine.SceneManagement;
 namespace Completed
 {
 	//Player inherits from MovingObject, our base class for objects that can move, Enemy also inherits from this.
@@ -220,7 +221,8 @@ namespace Completed
 		private void Restart ()
 		{
 			//Load the last scene loaded, in this case Main, the only scene in the game.
-			Application.LoadLevel (Application.loadedLevel);
+			//Application.LoadLevel (Application.loadedLevel);
+			SceneManager.LoadScene (0);
 		}
 		
 		
