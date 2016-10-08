@@ -24,7 +24,7 @@ public class Wall : MonoBehaviour {
 	public void DamageWall (int loss)
 	{
 		//Call the RandomizeSfx function of SoundManager to play one of two chop sounds.
-		SoundManager.instance.RandomizeSfx (chopSound1, chopSound2);
+		//SoundManager.instance.RandomizeSfx (chopSound1, chopSound2);
 
 		//Set spriteRenderer to the damaged wall sprite.
 		spriteRenderer.sprite = dmgSprite;
