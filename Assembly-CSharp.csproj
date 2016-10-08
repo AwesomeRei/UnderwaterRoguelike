@@ -46,9 +46,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="assets\Scripts\BoardManager.cs" />
+     <Compile Include="assets\Scripts\Enemy.cs" />
      <Compile Include="assets\Scripts\GameManager.cs" />
      <Compile Include="assets\Scripts\Loader.cs" />
      <Compile Include="assets\Scripts\MovingObject.cs" />
+     <Compile Include="assets\Scripts\Player.cs" />
      <Compile Include="assets\Scripts\Wall.cs" />
      <Compile Include="assets\completed\Scripts\BoardManager.cs" />
      <Compile Include="assets\completed\Scripts\Enemy.cs" />
